@@ -79,22 +79,5 @@ const colorIt = {
   )
 }
 
-function Todo() {
-  const [todo, setTodo] = useState([]);
-  useEffect(()=>{
-    fetch('https://jsonplaceholder.typicode.com/todos')
-    .then(response => response.json())
-    .then(data => setTodo(data))
-  },[]);
-  
-  return (
-    <div>
-      <h2>Todo count:{todo.length}</h2>
-    {
-      todo.map(todoList => <li>{todoList.title}</li>)
-    }
-    </div>
-  )
-}
 
 export default App;
