@@ -6,7 +6,7 @@ let author = [
     },
     {
         id:1,
-        authorName:"Neta lehari",
+        authorName:"Nedftaggf lehari",
         img:"https://randomuser.me/api/portraits/men/87.jpg"
     },
     {
